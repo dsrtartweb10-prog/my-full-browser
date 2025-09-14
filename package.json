@@ -1,0 +1,28 @@
+{
+  "name": "my-full-browser",
+  "version": "1.0.0",
+  "description": "Browser custom berbasis Electron - full features skeleton",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --publish=never",
+    "dist:publish": "electron-builder --publish=always"
+  },
+  "build": {
+    "appId": "com.yourcompany.mybrowser",
+    "productName": "MyBrowser",
+    "files": ["**/*"],
+    "extraResources": [],
+    "win": { "target": ["nsis","zip"] },
+    "mac": { "target": ["dmg"] },
+    "linux": { "target": ["AppImage"] }
+  },
+  "dependencies": {
+    "electron-store": "^8.0.0",
+    "electron-updater": "^5.3.0"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.0.0"
+  }
+}
