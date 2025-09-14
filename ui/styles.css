@@ -1,0 +1,12 @@
+body { margin:0; font-family: Arial, sans-serif }
+#topbar { background:#222; color:#fff; padding:6px }
+#tabs { display:inline-block; vertical-align:middle }
+.tab { display:inline-block; padding:6px 10px; margin-right:4px; background:#333; border-radius:4px; cursor:pointer }
+.tab.active { background:#555 }
+#controls { display:inline-block; margin-left:12px }
+#controls input { padding:6px; width:500px; border-radius:4px; border:none }
+#controls button { margin-left:6px; padding:6px 8px }
+#messages { position:fixed; right:10px; top:140px; max-width:420px }
+#popup { background:#fff; color:#000; border:1px solid #ccc; padding:8px; box-shadow:0 4px 12px rgba(0,0,0,0.2) }
+.pophead { font-weight:bold; display:flex; justify-content:space-between; align-items:center }
+.popbody { max-height:400px; overflow:auto }
