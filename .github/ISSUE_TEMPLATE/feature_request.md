@@ -1,23 +1,22 @@
 ## Info
-This file is used as a markdown issue template for suggesting new features.
+This file is used as a markdown issue template for suggesting new features in DSRT Browser.
 
 ---
 name: "💡 Feature Request"
-about: Ajukan ide atau permintaan fitur baru
+about: Suggest an idea or improvement for DSRT Browser
 title: "Feature: "
 labels: enhancement
 assignees: ''
 ---
 
-**Deskripsi Fitur**
-Tuliskan fitur yang ingin ditambahkan.
+**Description**
+Describe the feature you would like to see in DSRT Browser.
 
-**Solusi yang Diinginkan**
-Jelaskan bagaimana fitur ini bekerja.
-Contoh: Tambahkan tombol/opsi untuk buka tab incognito.
+**Proposed Solution**
+Explain how this feature should work.
 
-**Alternatif**
-Jika ada solusi alternatif, jelaskan di sini.
+**Alternatives**
+Describe any alternative solutions you’ve considered.
 
-**Catatan Tambahan**
-Tambahkan info tambahan jika diperlukan.
+**Additional Context**
+Add any other context, screenshots, or references here.
