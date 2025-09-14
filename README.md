@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/file_00000000ce9461fb9dfa530f7081c52e.png" alt="MyBrowser Logo" width="120"/>
+  <img src="assets/IMG-20250914-WA0000-removebg-preview.png" alt="MyBrowser Logo" width="120"/>
 </p>
 
 <p align="center">
