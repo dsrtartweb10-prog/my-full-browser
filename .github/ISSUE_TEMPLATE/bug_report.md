@@ -1,3 +1,6 @@
+## Info
+This file is used as a markdown issue template for reporting bugs.
+
 ---
 name: "🐞 Bug Report"
 about: Laporkan bug untuk membantu perbaikan MyBrowser
