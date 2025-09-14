@@ -10,34 +10,34 @@
 
 <p align="center">
   <!-- Release & Build -->
-  <a href="https://github.com/yourusername/my-full-browser/releases">
-    <img src="https://img.shields.io/github/v/release/yourusername/my-full-browser?logo=github&color=blue" alt="Latest Release"/>
+  <a href="https://github.com/dsrtartweb10-prog/my-full-browser/releases">
+    <img src="https://img.shields.io/github/v/release/dsrtartweb10-prog/my-full-browser?logo=github&color=blue" alt="Latest Release"/>
   </a>
-  <a href="https://github.com/yourusername/my-full-browser/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/my-full-browser/build.yml?logo=github&label=Build" alt="Build Status"/>
+  <a href="https://github.com/dsrtartweb10-prog/my-full-browser/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/dsrtartweb10-prog/my-full-browser/build.yml?logo=github&label=Build" alt="Build Status"/>
   </a>
   <img src="https://img.shields.io/badge/auto--update-enabled-brightgreen?logo=electron" alt="Auto Update"/>
 
   <!-- Repo Stats -->
-  <a href="https://github.com/yourusername/my-full-browser/stargazers">
-    <img src="https://img.shields.io/github/stars/yourusername/my-full-browser?style=social" alt="GitHub Stars"/>
+  <a href="https://github.com/dsrtartweb10-prog/my-full-browser/stargazers">
+    <img src="https://img.shields.io/github/stars/dsrtartweb10-prog/my-full-browser?style=social" alt="GitHub Stars"/>
   </a>
-  <a href="https://github.com/yourusername/my-full-browser/network/members">
-    <img src="https://img.shields.io/github/forks/yourusername/my-full-browser?style=social" alt="GitHub Forks"/>
+  <a href="https://github.com/dsrtartweb10-prog/my-full-browser/network/members">
+    <img src="https://img.shields.io/github/forks/dsrtartweb10-prog/my-full-browser?style=social" alt="GitHub Forks"/>
   </a>
-  <a href="https://github.com/yourusername/my-full-browser/issues">
-    <img src="https://img.shields.io/github/issues/yourusername/my-full-browser?color=orange" alt="GitHub Issues"/>
+  <a href="https://github.com/dsrtartweb10-prog/my-full-browser/issues">
+    <img src="https://img.shields.io/github/issues/dsrtartweb10-prog/my-full-browser?color=orange" alt="GitHub Issues"/>
   </a>
-  <a href="https://github.com/yourusername/my-full-browser/pulls">
-    <img src="https://img.shields.io/github/issues-pr/yourusername/my-full-browser?color=yellow" alt="GitHub PRs"/>
+  <a href="https://github.com/dsrtartweb10-prog/my-full-browser/pulls">
+    <img src="https://img.shields.io/github/issues-pr/dsrtartweb10-prog/my-full-browser?color=yellow" alt="GitHub PRs"/>
   </a>
 
   <!-- License & Downloads -->
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/yourusername/my-full-browser?color=green" alt="License"/>
+    <img src="https://img.shields.io/github/license/dsrtartweb10-prog/my-full-browser?color=green" alt="License"/>
   </a>
-  <a href="https://github.com/yourusername/my-full-browser/releases">
-    <img src="https://img.shields.io/github/downloads/yourusername/my-full-browser/total?color=purple&logo=github" alt="Downloads"/>
+  <a href="https://github.com/dsrtartweb10-prog/my-full-browser/releases">
+    <img src="https://img.shields.io/github/downloads/dsrtartweb10-prog/my-full-browser/total?color=purple&logo=github" alt="Downloads"/>
   </a>
 </p>
 
@@ -54,7 +54,7 @@
 ---
 
 ## 📦 Quick Install
-👉 [**Download Latest Release**](https://github.com/yourusername/my-full-browser/releases)
+👉 [**Download Latest Release**](https://github.com/dsrtartweb10-prog/my-full-browser/releases)
 
 - **Windows**: `.exe` installer  
 - **macOS**: `.dmg` package  
@@ -65,7 +65,7 @@
 ## 🚀 Development
 
 ```bash
-git clone https://github.com/yourusername/my-full-browser.git
+git clone https://github.com/dsrtartweb10-prog/my-full-browser.git
 cd my-full-browser
 npm install
 npm start
@@ -118,6 +118,6 @@ See CONTRIBUTING.md.
 ---
 
 <p align="center">
-  Built with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
+  Built with ❤️ by <a href="https://github.com/dsrtartweb10-prog">dsrtartweb10-prog</a>
 </p>
 ```
