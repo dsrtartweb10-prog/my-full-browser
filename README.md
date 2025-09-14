@@ -9,16 +9,36 @@
 </p>
 
 <p align="center">
+  <!-- Release & Build -->
   <a href="https://github.com/yourusername/my-full-browser/releases">
     <img src="https://img.shields.io/github/v/release/yourusername/my-full-browser?logo=github&color=blue" alt="Latest Release"/>
   </a>
+  <a href="https://github.com/yourusername/my-full-browser/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/my-full-browser/build.yml?logo=github&label=Build" alt="Build Status"/>
+  </a>
+  <img src="https://img.shields.io/badge/auto--update-enabled-brightgreen?logo=electron" alt="Auto Update"/>
+
+  <!-- Repo Stats -->
+  <a href="https://github.com/yourusername/my-full-browser/stargazers">
+    <img src="https://img.shields.io/github/stars/yourusername/my-full-browser?style=social" alt="GitHub Stars"/>
+  </a>
+  <a href="https://github.com/yourusername/my-full-browser/network/members">
+    <img src="https://img.shields.io/github/forks/yourusername/my-full-browser?style=social" alt="GitHub Forks"/>
+  </a>
+  <a href="https://github.com/yourusername/my-full-browser/issues">
+    <img src="https://img.shields.io/github/issues/yourusername/my-full-browser?color=orange" alt="GitHub Issues"/>
+  </a>
+  <a href="https://github.com/yourusername/my-full-browser/pulls">
+    <img src="https://img.shields.io/github/issues-pr/yourusername/my-full-browser?color=yellow" alt="GitHub PRs"/>
+  </a>
+
+  <!-- License & Downloads -->
   <a href="LICENSE">
     <img src="https://img.shields.io/github/license/yourusername/my-full-browser?color=green" alt="License"/>
   </a>
-  <a href="https://github.com/yourusername/my-full-browser/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/yourusername/my-full-browser/build.yml?logo=github" alt="Build Status"/>
+  <a href="https://github.com/yourusername/my-full-browser/releases">
+    <img src="https://img.shields.io/github/downloads/yourusername/my-full-browser/total?color=purple&logo=github" alt="Downloads"/>
   </a>
-  <img src="https://img.shields.io/badge/auto--update-enabled-brightgreen" alt="Auto Update"/>
 </p>
 
 ---
@@ -82,26 +102,6 @@ Build & Release Guide
 
 MIT License
 
-Copyright (c) 2025 dsrtartweb10-prog
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
 Privacy Policy
 
 End-User License Agreement (EULA)
@@ -118,6 +118,6 @@ See CONTRIBUTING.md.
 ---
 
 <p align="center">
-  Built with ❤️ by <a href="https://github.com/dsrtartweb10">DSRT</a>
+  Built with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
 </p>
 ```
