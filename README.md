@@ -1,4 +1,4 @@
-<h1 align="center">MyBrowser 🦊</h1>
+<h1 align="center">DSRT Browser 🦊</h1>
 
 <p align="center">
   A modern, lightweight, and customizable Chromium-based browser built with <a href="https://www.electronjs.org/">Electron</a>.
