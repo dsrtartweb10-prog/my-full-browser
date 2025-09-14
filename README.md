@@ -1,1 +1,4 @@
-# my-full-browser
+# MyBrowser - skeleton
+
+## Jalankan (dev)
+1. install deps
