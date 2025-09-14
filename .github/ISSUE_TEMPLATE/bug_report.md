@@ -1,27 +1,28 @@
 ## Info
-This file is used as a markdown issue template for reporting bugs.
+This file is used as a markdown issue template for reporting bugs in DSRT Browser.
 
 ---
 name: "🐞 Bug Report"
-about: Laporkan bug untuk membantu perbaikan MyBrowser
+about: Report a bug to help improve DSRT Browser
 title: "Bug: "
 labels: bug
 assignees: ''
 ---
 
-**Deskripsi Bug**
-Tuliskan bug yang kamu temukan.
+**Description**
+A clear and concise description of what the bug is.
 
-**Langkah Reproduksi**
-1. Buka MyBrowser
-2. Tambahkan tab sampai lebih dari 5
-3. Browser crash tiba-tiba
+**Steps to Reproduce**
+1. Open DSRT Browser
+2. ...
+3. See error
 
-**Ekspektasi**
-Tab seharusnya bisa lebih dari 5 tanpa crash.
+**Expected Behavior**
+A clear description of what you expected to happen.
 
 **Screenshots / Logs**
-Tambahkan screenshot atau log error jika ada.
+If applicable, add screenshots or logs to help explain the problem.
 
-**Versi**
-Tuliskan versi aplikasi (contoh: v0.1.0).
+**Environment**
+- Version: (e.g. v0.1.0)
+- OS: (e.g. Windows 10, Ubuntu 22.04, macOS 14)
