@@ -5,11 +5,12 @@
   "main": "src/main/main.js",
   "scripts": {
     "start": "electron .",
-    "dev": "electronmon .", 
+    "dev": "electronmon .",
     "test": "jest --runInBand",
     "test:unit": "jest src/test/unit",
     "test:integration": "jest src/test/integration",
     "test:e2e": "jest src/test/e2e",
+    "lint": "eslint src/ --ext .js",
     "build": "electron-builder"
   },
   "build": {
@@ -43,6 +44,8 @@
     "electron": "^31.0.0",
     "electron-builder": "^24.13.3",
     "electronmon": "^2.0.2",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "eslint": "^9.9.0",
+    "eslint-plugin-node": "^11.1.0"
   }
 }
