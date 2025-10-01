@@ -1,0 +1,20 @@
+const fetch = require("node-fetch");
+const { app } = require("electron");
+
+async function checkForUpdates(updateUrl) {
+  try {
+    const res = await fetch(updateUrl, { timeout: 5000 });
+    if (!res.ok) throw new Error(`Update server error: ${res.status}`);
+    const data = await res.json();
+
+    if (data.version !== app.getVersion()) {
+      return { updateAvailable: true, data };
+    }
+    return { updateAvailable: false };
+  } catch (err) {
+    console.error("Update check failed:", err);
+    return { updateAvailable: false, error: err.message };
+  }
+}
+
+module.exports = { checkForUpdates };
