@@ -1,28 +1,48 @@
 {
   "name": "my-full-browser",
   "version": "1.0.0",
-  "description": "Browser custom berbasis Electron - full features skeleton",
-  "main": "main.js",
+  "description": "Custom Electron Browser",
+  "main": "src/main/main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --publish=never",
-    "dist:publish": "electron-builder --publish=always"
+    "dev": "electronmon .", 
+    "test": "jest --runInBand",
+    "test:unit": "jest src/test/unit",
+    "test:integration": "jest src/test/integration",
+    "test:e2e": "jest src/test/e2e",
+    "build": "electron-builder"
   },
   "build": {
-    "appId": "com.yourcompany.mybrowser",
-    "productName": "MyBrowser",
-    "files": ["**/*"],
-    "extraResources": [],
-    "win": { "target": ["nsis","zip"] },
-    "mac": { "target": ["dmg"] },
-    "linux": { "target": ["AppImage"] }
+    "appId": "com.myfullbrowser.app",
+    "productName": "MyFullBrowser",
+    "directories": {
+      "buildResources": "build",
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "build/icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "build/icons"
+    }
   },
   "dependencies": {
-    "electron-store": "^8.0.0",
-    "electron-updater": "^5.3.0"
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
-    "electron": "^30.0.0",
-    "electron-builder": "^24.0.0"
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3",
+    "electronmon": "^2.0.2",
+    "jest": "^29.7.0"
   }
 }
