@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Full Browser</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar">
+      <button onclick="goBack()">⬅️</button>
+      <button onclick="goForward()">➡️</button>
+      <button onclick="reload()">🔄</button>
+      <input id="url" type="text" placeholder="Enter URL" />
+      <button onclick="navigate()">Go</button>
+    </div>
+
+    <!-- Content area -->
+    <div id="content">
+      <webview id="browserView" src="https://example.com" style="width:100%; height:90vh;"></webview>
+    </div>
+
+    <!-- Download list -->
+    <div id="downloads"></div>
+
+    <!-- Scripts -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/tabs.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/bookmark.js"></script>
+    <script src="scripts/history.js"></script>
+  </body>
+</html>
